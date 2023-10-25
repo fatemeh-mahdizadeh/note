@@ -1,0 +1,31 @@
+
+@font-face {
+	font-family: 'small';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./font/Webfonts/fonts/woff/IRANSansX-Bold.woff') format('woff'),   
+	url('./font/Webfonts/fonts/woff2/IRANSansX-Bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: 'small';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./font/Webfonts/fonts/woff/IRANSansX-Regular.woff') format('woff'),   
+	url('./font/Webfonts/fonts/woff2/IRANSansX-Regular.woff2') format('woff2');	
+}
+@font-face {
+	font-family: 'myFirstFont' ;
+	src: url(./font/IRANSansX-Bold.ttf);
+}
+
+*{
+    font-family: 'myFirstFont';
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+	list-style: none;
+}
+.hight{
+	height: 50px;
+}

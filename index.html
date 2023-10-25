@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./image/download.png">
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-purple-200">
+    <header class="flex flex-col text-center my-10 ">
+        <h1 class="text-3xl">local storage دفترچه یادداشت با</h1>
+        <h3  class="text-2xl">(حافظه ی مرورگر)</h3>
+        <p  class="text-3xl my-4">---------------------------------</p>
+    </header>
+    
+    <main class=" flex lg:flex-row-reverse flex-col w-full ">
+        <form action="#" class="flex flex-col mx-12 lg:w-4/12 form">
+            <h6 class=" text-right text-sm "> :یادداشت جدید بنویس</h6>
+            <input type="text" class="pr-2 border border-gray-500 text-right my-2 hight rounded ">
+            <button class="border border-blue-500 bg-blue-600 text-white py-2 rounded my-2">ذخیره یادداشت</button>
+        </form>
+        
+        <section class="flex flex-col">
+            <h1 class="lg:my-2 my-5 text-2xl lg:text-right text-center ">یادداشت های من</h1>
+            <p class="note-list text-center my-2"></p>
+        </section>
+
+    </main>
+<script src="./app.js"></script>    
+</body>
+
+</html>
